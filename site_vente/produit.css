@@ -1,0 +1,220 @@
+.head{
+    display: inline;
+    display: flex;
+    font-family: cursive;
+}
+video {
+    z-index: -1;
+   position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+}
+.prod {
+    padding: 2.5rem;
+    font-style: italic;
+    /* color: white; */
+   
+}
+.produit .phto3:hover {
+    background-image: url(fig2.jpg);
+    
+}
+.scoop {
+    font-size: large;
+    font-style: italic;
+}
+.panier {
+    font-style: italic;
+}
+body{
+    background: url(fig2.jpg) center/cover;
+    /* min-height: 100vh; */
+    color: white;
+}
+.logo {
+    display: inline;
+    text-align: right;
+    font-size: x-large;
+    margin-right: 19rem;
+    /* color: black; */
+}
+.jes {
+    color: darkorange;
+}
+.select {
+    display: inline;
+    display: flex;
+    font-family: cursive;
+}
+.panier {
+    display: inline;
+    text-align: right;
+    font-size: x-large;
+    margin-right: 17rem;
+}
+.livraison {
+    padding: 2rem;
+}
+.btn {
+    width: 35%;
+    height: 50px;
+    margin-left: 10rem;
+}
+span {
+    display: inline;
+    /* display: flex; */
+    font-family: cursive;
+    color: darkorange;
+}
+ul {
+    display: inline;
+    align-items: center;
+   justify-content: space-between;
+    /* text-align: right; */
+
+}
+li {
+    display: inline;
+    text-align: right;
+    margin-right: 0.2rem;
+}
+button {
+    width: 60%;
+    height: 50px;
+    margin-left: 5rem;
+    border-color: darkorange;
+    background-color: whitesmoke;
+    border-radius: 8px;
+}
+.produit {
+    display: inline;
+    display: flex;
+}
+.phto1 {
+    display: inline; 
+    box-sizing: border-box; 
+    border-radius: 2%;
+    margin: 5REM;
+     margin-left: 1rem;  
+     margin-right: 4REM;
+     background-image: url(pexels-irina-iriser-1647976.jpg);
+    background-position: center;
+    background-size: cover;
+     width: 30pc; 
+    height: 70vh;  
+}
+.phto2 {
+    display: inline; 
+    box-sizing: border-box; 
+    border-radius: 2%;
+    margin: 5REM;
+     margin-left: 1rem;  
+     margin-right: 4REM;
+     background-image: url(pexels-sai-krishna-13387311.jpg);
+    background-position: center;
+    background-size: cover;
+     width: 30pc; 
+    height: 70vh;  
+}
+.phto3 {
+    display: inline; 
+    box-sizing: border-box; 
+    border-radius: 2%;
+    margin: 5REM;
+     margin-left: 1rem;  
+     margin-right: 4REM;
+     background-image: url(pexels-thlil-2378138.jpg);
+    background-position: center;
+    background-size: cover;
+     width: 30pc; 
+    height: 70vh;  
+}
+.phto4 {
+    display: inline; 
+    box-sizing: border-box; 
+    border-radius: 2%;
+    margin: 5REM;
+     margin-left: 1rem;  
+     margin-right: 4REM;
+     background-image: url(pexels-omar-markhieh-1447254.jpg);
+    background-position: center;
+    background-size: cover;
+     width: 30pc; 
+    height: 70vh;  
+}
+.phto5{
+    display: inline; 
+    box-sizing: border-box; 
+    border-radius: 2%;
+    margin: 5REM;
+     margin-left: 1rem;  
+     margin-right: 4REM;
+     background-image: url(pexels-kolkatar-chobiwala-12957102.jpg);
+    background-position: center;
+    background-size: cover;
+     width: 30pc; 
+    height: 70vh;  
+}
+.phto6 {
+    display: inline; 
+    box-sizing: border-box; 
+    border-radius: 2%;
+    margin: 5REM;
+     margin-left: 1rem;  
+     margin-right: 4REM;
+     background-image: url(pexels-zana-latif-15493878.jpg);
+    background-position: center;
+    background-size: cover;
+     width: 30pc; 
+    height: 70vh;  
+}
+.phto7 {
+    display: inline; 
+    box-sizing: border-box; 
+    border-radius: 2%;
+    margin: 5REM;
+     margin-left: 1rem;  
+     margin-right: 4REM;
+     background-image: url(pexels-zaidan-falaah-11934176.jpg);
+    background-position: center;
+    background-size: cover;
+     width: 30pc; 
+    height: 70vh;  
+}
+.description {
+   font-style: italic;
+   padding: 7REM;
+   font-size: x-large;
+}
+
+.hi {
+    color: black;
+     border-radius: 20%;
+     width: 100px;
+     height: 49px;
+     /* border-color: rgb(105, 93, 77); */
+     border-color: darkorange;
+     background-color: whitesmoke;
+     cursor: pointer;
+    
+ }
+ .his {
+    color: black;
+    border-radius: 20%;
+    width: 120px;
+    height: 49px;
+    /* border-color: rgb(105, 93, 77); */
+    border-color: darkorange;
+    background-color: whitesmoke;
+    cursor: pointer;
+ }
+.fin {
+     /* padding: 3rem; */
+    margin-left: 37.8rem; 
+    font-family: cursive;
+    color: darkorange;
+
+}

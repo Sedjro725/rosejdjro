@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* background-image: url(../img/IMG_6647.JPG); */
+    background-color: rgb(229, 229, 251);
+    background-position: center;
+    background-size: cover;
+    justify-content: space-between;
+    align-items: center;
+}
+nav{
+    display: flex;
+   justify-content: space-between;
+   font-family: cursive;
+   font-weight: bold;
+   padding-top: 1rem;
+}
+.navbar{
+    display: flex;
+   justify-content: space-between;
+   padding-right: 2rem;
+}
+.navbar a:hover{
+    color: white;
+}
+.uls{
+    font-size: xx-large;
+    padding-left: 1rem;
+    color: darkblue;
+}
+center{
+    padding-top: 3rem;
+    font-family: cursive;
+    font-weight: bold;
+}
+.navbar ul {
+    margin-right: 3rem;
+    padding-top: 1rem;
+}
+.navbar ul a{
+    color: var(--text--color);
+    text-decoration: none;
+}
+.part1 ,.part2,.part3 {
+    padding-left: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.u1{
+    font-family: cursive;
+    font-weight: bold;
+    font-size: x-large;
+    padding-top: 1rem;
+    margin: 2rem;
+}
+.u1 span{
+    color: darkblue;
+}
+.u3 a button{
+    border-radius: 2% 12% 2% 12%;
+    width: 106px;
+    height: 36px;
+    font-family: cursive;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 25rem;
+    padding-top: 1rem;
+    margin: 1rem;
+}
+.u2{
+    padding-top: 1rem;
+}
+
+.projet1 .u2 {
+    background-image: url(../img/prod.png);
+    background-position: center;
+    background-size: cover;
+     width: 34pc; 
+    height: 70vh; 
+    box-sizing: border-box; 
+}
+.projet2 .u2 {
+    background-image: url(../img/gradientdescent.png);
+    background-position: center;
+    background-size: cover;
+     width: 34pc; 
+    height: 70vh; 
+    box-sizing: border-box; 
+}
+.projet3 .u2 {
+    background-image: url(../img/Anno.png);
+    background-position: center;
+    background-size: cover;
+     width: 34pc; 
+    height: 70vh; 
+    box-sizing: border-box; 
+}
+.projet4 .u2 {
+    background-image: url(../img/xampp.png);
+    background-position: center;
+    background-size: cover;
+     width: 34pc; 
+    height: 70vh; 
+    box-sizing: border-box; 
+}
+.projet5 .u2 {
+    background-image: url(../img/Reseau.png);
+    background-position: center;
+    background-size: cover;
+     width: 34pc; 
+    height: 70vh; 
+    box-sizing: border-box; 
+}
+.projet6 .u2 {
+    background-image: url(../img/projet.png);
+    background-position: center;
+    background-size: cover;
+     width: 34pc; 
+    height: 70vh; 
+    box-sizing: border-box; 
+}

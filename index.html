@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Personal portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- header -->
+  <header>
+    <a href="#" class="logo">Développeur <span>Web.</span></a>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <nav>
+      <ul class="navlist">
+        <li><a href="#" class="active">home</a></li>
+        <li><a href="about.html">about</a></li>
+        <li><a href="competences.html">Service</a></li>
+        <li><a href="projet.html">projet</a></li>
+      </ul>
+    </nav>
+    <label for="nav-toggle" class="nav-toggle-label">
+      <span></span>
+    </label>
+    <a href="contact.html" class="h-btn">Contacter moi</a>
+  </header>
+  
+  <!-- hero -->
+  <section class="hero">
+    <div class="main-content">
+      <div class="banniere">
+        <div>
+          <h4>Salut, mes chers</h4>
+          <h1>je suis <span class="input"></span></h1>
+          <p>BIENVENUE à vous sur ma page</p>
+        </div>
+        <div class="footer-iconTop">
+          <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+          <a href="#"><box-icon name='x'></box-icon></a>
+        </div>
+      </div>
+      
+      <div class="social">
+        <a href="https://facebook.com/Big-rØms Houessou"><i class="ri-facebook-fill"></i></a>
+        <a href="https://google.com/romarichouessou724@gmail.com"><i class="ri-google-line"></i></a>
+        <a href="https://whatsapp.com/"><i class="ri-whatsapp-line"></i></a>
+        <a href="https://twitter.com/Romahouessou"><i class="ri-twitter-line"></i></a>
+        <a href="https://intagram.com/roma_ric724"><i class="ri-instagram-fill"></i></a>
+        <a href="https://linkedin.com/Romaric Houessou"><i class="ri-linkedin-box-fill"></i></a>
+      </div>
+      
+      <div class="main-btnn">
+        <a href="site_vente/index.html" class="btn">Regardez mon site de vente</a>
+        <a href="mon cv.html" class="btn">Telecharger mon cv</a>
+      </div>
+    </div>
+    
+    <div class="bottom">
+      <p>copyright@ 2023- Made by Romaric B. S . HOUESSOU</p>
+    </div>
+  </section>
+  
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed(".input",{
+      strings:["HOUESSOU Sedjro Bignon Romaric", "Développeur Web", "Visitez mon site Roviaque store"],
+      typeSpeed: 70,
+      backSpeed: 65,
+      loop: true
+    });
+  </script>
+</body>
+</html>

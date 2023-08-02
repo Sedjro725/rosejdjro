@@ -1,0 +1,176 @@
+body{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    scroll-behavior: smooth;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.part1{
+    width: 100%;
+    height: 37pc;
+    background-color: rgb(229, 229, 251);
+    background-position: center;
+    background-size: cover;
+    
+}
+nav{
+    display: flex;
+   justify-content: space-between;
+   font-family: cursive;
+   font-weight: bold;
+}
+hr{
+    opacity: 0.5;
+}
+.logo{
+    font-size: xX-large;
+    font-weight: bold;
+    margin-left: 1rem;
+    letter-spacing: 0.09cm;
+}
+nav a {
+    margin-right: 3rem;
+    transition: .3s;
+    color: var(--text--color);
+    font-size: large;
+    text-decoration: none;
+}
+.navbar{
+    padding-top: 1rem;
+}
+.navbar a:hover{
+    color: white;
+}
+.corps{
+    display:flex;
+    justify-content: space-between;
+
+}
+.phto {
+    background-image: url(../img/fig2.JPG);
+    background-position: center;
+    background-size: cover;
+     width: 92pc; 
+    height: 29.5pc; 
+    box-sizing: border-box; 
+    margin-left: 3rem;
+    margin-top: 1.5rem;
+    /* border-radius: 20% 20% 20% 2%; */
+}
+.present{
+    padding: 6rem;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: x-large;
+    margin-left: 7rem;
+}
+.present span{
+    font-size: x-large;
+   margin-left: 3rem;
+   letter-spacing: 0.09cm;
+   color: darkblue;
+   animation: resize 2s infinite;
+}
+.present a button:hover{
+    color: floralwhite;
+}
+.present a i {
+    width: 2rem;
+    height: 8rem;
+    font-size: 3rem;
+    margin-right: 0.5rem;
+    margin-left: 2rem;
+    padding-top: 1REM;
+}
+.b1{
+    border-radius: 2% 12% 2% 12%;
+    width: 154px;
+    height: 36px;
+    font-family: cursive;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.b2{
+    border-radius: 2% 12% 2% 12%;
+    width: 177px;
+    height: 36px;
+    margin-right: 1rem;
+    margin-left: 1REM;
+    font-family: cursive;
+    font-weight: bold;
+    cursor: pointer;
+}
+center span {
+    /* padding: 2rem; */
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: cursive;
+    color: darkblue;
+    animation: resize 3s ease-out infinite;
+}
+.part2{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+    background-image: url(../img/IMG_6628.PNG);
+    background-position: center;
+    background-size: cover;
+}
+.u1{
+    font-family: cursive;
+    font-weight: bold;
+    font-size: x-large;
+}
+.u1 span{
+    color: darkblue;
+}
+.projet1 .u2 {
+    background-image: url(../img/prod.png);
+    background-position: center;
+    background-size: cover;
+     width: 34pc; 
+    height: 70vh; 
+    box-sizing: border-box; 
+}
+.projet2 .u2 {
+    background-image: url(../img/xampp.png);
+    background-position: center;
+    background-size: cover;
+     width: 34pc; 
+    height: 70vh; 
+    box-sizing: border-box; 
+    
+}
+.u3 a button{
+    border-radius: 2% 12% 2% 12%;
+    width: 106px;
+    height: 36px;
+    font-family: cursive;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 25rem;
+}
+
+
+
+/* animation */
+
+@keyframes resize {
+    0% {
+        width: 100px;
+        height: 100px;
+    }
+    50% {
+        width: 200%;
+        height: 200px;
+    }
+    100% {
+        width: 100px;
+        height: 100px;
+    }
+}
